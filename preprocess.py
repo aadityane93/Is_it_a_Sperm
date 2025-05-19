@@ -52,4 +52,8 @@ print("After Resize :", end= " ")
 print(df["resized_image"][1].shape)
 
 
+cv2.imshow('Before Resize', df["raw_image"][2])
+cv2.imshow('After Resize', df["resized_image"][2])
+
+cv2.waitKey(0)
 #finding the smallest image
